@@ -36,11 +36,11 @@
   <p align="center">
     Bot for monitoring GPU stock availability at Best Buy and purchasing once stock has returned. Can also be used for other Best Buy products with a desired product URL.
     <br />
-    <a href="https://github.com/ben-m-90/bestbuystockbot"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/ben-m-90/bestbuystockbot"><strong>Explore the docs Â»</strong></a>
     <br />
     <br />
     <a href="https://github.com/ben-m-90/bestbuystockbot/issues">Report Bug</a>
-    ·
+    Â·
     <a href="https://github.com/ben-m-90/bestbuystockbot/issues">Request Feature</a>
   </p>
 </div>
@@ -206,9 +206,7 @@ Project Link: [https://github.com/ben-m-90/bestbuystockbot](https://github.com/b
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [https://selenium.dev](Selenium)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
