@@ -3,14 +3,16 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3535da29-3f2a-442d-b8bd-f2ae5efb84ff</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
-    <StartupFile>BestBuyStockBot.py</StartupFile>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>stock_bot.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>BestBuyStockBot</Name>
+    <Name>stock_bot</Name>
     <RootNamespace>BestBuyStockBot</RootNamespace>
+    <InterpreterId>MSBuild|stock_bot_venv|$(MSBuildProjectFullPath)</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -20,8 +22,32 @@
     <DebugSymbols>true</DebugSymbols>
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkMoniker>.NETFramework,Version=$(TargetFrameworkVersion)</TargetFrameworkMoniker>
+  </PropertyGroup>
   <ItemGroup>
-    <Compile Include="BestBuyStockBot.py" />
+    <Compile Include="stock_bot.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\screenshot.png" />
+    <Content Include="README.md" />
+    <Content Include="requirements.txt" />
+    <Content Include="sample.env" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="..\..\..\..\Python Virtual Environments\stock_bot_venv\">
+      <Id>stock_bot_venv</Id>
+      <Version>3.10</Version>
+      <Description>stock_bot_venv (Python 3.10 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
