@@ -30,11 +30,7 @@
     <Compile Include="stock_bot.py" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images\screenshot.png" />
     <Content Include="sample.env" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Images\" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="..\..\..\..\Python Virtual Environments\stock_bot_venv\">
