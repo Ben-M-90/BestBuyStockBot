@@ -223,7 +223,7 @@ Project Link: [https://github.com/ben-m-90/bestbuystockbot](https://github.com/b
 [issues-shield]: https://img.shields.io/github/issues/ben-m-90/bestbuystockbot.svg?style=for-the-badge
 [issues-url]: https://github.com/ben-m-90/bestbuystockbot/issues
 [license-shield]: https://img.shields.io/github/license/ben-m-90/bestbuystockbot.svg?style=for-the-badge
-[license-url]: https://github.com/ben-m-90/bestbuystockbot/blob/master/LICENSE.txt
+[license-url]: https://github.com/ben-m-90/bestbuystockbot/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/ben-a-miller
 [product-screenshot]: Images/screenshot.png
