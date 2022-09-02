@@ -31,8 +31,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\screenshot.png" />
-    <Content Include="README.md" />
-    <Content Include="requirements.txt" />
     <Content Include="sample.env" />
   </ItemGroup>
   <ItemGroup>

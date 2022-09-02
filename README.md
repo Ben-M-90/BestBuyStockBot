@@ -245,7 +245,7 @@ Project Link: [https://github.com/ben-m-90/bestbuystockbot](https://github.com/b
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
-[Python.org]: https://img.shields.io/badge/Python-#3776AB?style=for-the-badge&logo=Python&logoColor=white
+[Python.org]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white
 [Python-url]: https://python.org 
-[Selenium.dev]: https://img.shields.io/badge/Selenium-##43B02A?style=for-the-badge&logo=Selenium&logoColor=white
+[Selenium.dev]: https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=white
 [Selenium-url]: https://selenium.dev
